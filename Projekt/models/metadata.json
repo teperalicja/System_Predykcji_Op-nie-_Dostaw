@@ -1,0 +1,34 @@
+{
+  "data_treningu": "2026-08-01 17:16",
+  "model": "RandomForestClassifier",
+  "accuracy_test": 0.7798858852204742,
+  "accuracy_cv_mean": 0.7745802028875117,
+  "accuracy_cv_std": 0.002144513067881206,
+  "auc": 0.8651144621546445,
+  "n_features": 38,
+  "cechy_numeryczne": [
+    "Planowane_dni_wysylki",
+    "Cena_produktu",
+    "Ilosc_pozycji",
+    "Rabat_pozycji",
+    "Stopa_rabatu_pozycji",
+    "Dzien_tygodnia_zamowienia",
+    "Miesiac_zamowienia"
+  ],
+  "cechy_onehot": [
+    "Tryb_wysylki",
+    "Rynek",
+    "Typ_platnosci",
+    "Nazwa_dzialu"
+  ],
+  "cechy_target_encoding": [
+    "Miasto_klienta",
+    "Kraj_klienta",
+    "Stan_klienta",
+    "Miasto_zamowienia",
+    "Kraj_zamowienia",
+    "Nazwa_kategorii",
+    "Nazwa_produktu"
+  ],
+  "target_encoding_smoothing": 10
+}
